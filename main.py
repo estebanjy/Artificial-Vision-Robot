@@ -1,7 +1,7 @@
 
-from MotorModule import Motor
-from LaneModule import getLaneCurve
-import WebcamModule
+from ModuloMotores import Motor
+from ModuloDeteccionLinea import getLaneCurve
+import ModuloCamara
  
 ##################################################
 motor = Motor(2,3,4,17,22,27)
