@@ -13,7 +13,7 @@ def main():
     curveVal= getLaneCurve(img,1)
  
     sen = 1.3  # SENSITIVITY
-    maxVAl= 0.3 # MAX SPEED
+    maxVAl= 0.3 # MAX SPEE
     if curveVal>maxVAl:curveVal = maxVAl
     if curveVal<-maxVAl: curveVal =-maxVAl
     #print(curveVal)
